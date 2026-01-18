@@ -14,8 +14,6 @@
     position: relative;
 }
 
-
-
 .container-fluid h4 {
     font-size: 20px;
 }
@@ -38,6 +36,7 @@
     border-radius: 20px;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-transform: uppercase;
 }
 
 .container-fluid a:hover .fa {
@@ -226,7 +225,6 @@
     }
 
     .container-fluid h2 {
-        font-family: "Sekuya", static;
         font-size: 28px;
         width: 500px;
     }
@@ -244,7 +242,6 @@
     }
 
     .container-fluid h2 {
-        font-family: "Sekuya", static;
         font-size: 28px;
         width: 450px;
     }

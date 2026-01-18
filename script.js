@@ -7,7 +7,7 @@ document.querySelector(".seal").addEventListener("click", () => {
     document.querySelector(".letter").classList.add("open-letter");
     setTimeout(() => {
         document.querySelector(".letter").style.display = "flex";
-    }, 2000);
+    }, 500);
     document.querySelector(".overlay").style.display = "flex";
 
     setTimeout(() => {
@@ -22,7 +22,7 @@ document.querySelector(".seal").addEventListener("click", () => {
 function startTypewriter() {
     const textElement = document.getElementById("typewriter");
 
-    const text = `Hi bonii hehehe unang una sa lahat thank youu sa lahat, lalong lalo na sa gift mo sobrang thank youu naappreciate ko yun sobraa hehehe and also sobrang nag te-thank you din ako sa Lord kasi nakilala kita hindi lang ako namin kasi grabe yung naging impact mo samin to the point na we are all happy because of you yung pagiging makulit mo, masiyahin mo and matulungin mo. sa sobrang matulungin mo nga eh ikaw na lahat gumagawa hays, maka hays ako eh no kala mo hindi din ganun 😂😂 sayo tlga ako nag mana bonii 😂😂 kaya wag mo iisipin na hindi ka importante okiee kasi para samin napaka importante mo 🤗 and wag mo masyado stressin sarili mo bonii ano ba ikaw nandito lang akoo kung need mo ng help nandito lang ako lagi or nandyan sila jhonny at jim okiee wag mo masyado solohin lahat and about naman sa system wag mo isipin na nag iisa ka okiee nandito ako hehelp kita dyan alam ko medyo magulo ako minsan sorry huhuhuhu pero pagdating sa technical and about na sa system maaasahan mo ako dyan ba yan bonii di na tayo mag kakasabay mamimiss kita bonii huhuhuhuhu 😢 sana hanggang sa mag katrabaho na tayo mag bff padin tayo ah palagi ikaw mag iingat ah kapag kailangan mo ko chat mo lang ako bonii nandito lang ako palagi para sayoo okiee God bless miss ko kayo agad na agad 😢😢`;
+    const text = `Hi bonii hehehe unang una sa lahat thank youu sa lahat, lalong lalo na sa gift mo sobrang thank youu naappreciate ko yun sobraa hehehe and also sobrang nag te-thank you din ako sa Lord kasi nakilala kita hindi lang ako namin kasi grabe yung naging impact mo samin to the point na we are all happy because of you yung pagiging makulit mo, masiyahin mo and matulungin mo. sa sobrang matulungin mo nga eh ikaw na lahat gumagawa hays, maka hays ako eh no kala mo hindi din ganun 😂😂 sayo tlga ako nag mana bonii 😂😂 kaya wag mo iisipin na hindi ka importante okiee kasi para samin napaka importante mo 🤗 and wag mo masyado stressin sarili mo bonii ano ba ikaw nandito lang akoo kung need mo ng help nandito lang ako lagi or nandyan sila jhonny at jim okiee wag mo masyado solohin lahat and about naman sa system wag mo isipin na nag iisa ka okiee nandito ako hehelp kita dyan alam ko medyo magulo ako minsan sorry huhuhuhu pero pagdating sa technical and about na sa system maaasahan mo ako dyan ba yan bonii di na tayo mag kakasabay mamimiss kita bonii huhuhuhuhu 😢 sana hanggang sa mag katrabaho na tayo mag bff padin tayo ah palagi ikaw mag iingat ah kapag kailangan mo ko chat mo lang ako bonii nandito lang ako palagi para sayoo okiee God bless miss ko kayo agad 😢😢`;
 
     let index = 0;
     const speed = 20; // typing speed (lower = faster)
