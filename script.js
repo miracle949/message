@@ -7,7 +7,7 @@ document.querySelector(".seal").addEventListener("click", () => {
     document.querySelector(".letter").classList.add("open-letter");
     setTimeout(() => {
         document.querySelector(".letter").style.display = "flex";
-    }, 500);
+    }, 1500);
     document.querySelector(".overlay").style.display = "flex";
 
     setTimeout(() => {
