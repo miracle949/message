@@ -14,9 +14,9 @@
 <body>
 
     <div class="container-fluid p-0">
-        <h4 class="text-white">Can you open this.</h4>
+        <h4 class="text-white" id="title">Can you open this.</h4>
 
-        <div class="letter">
+        <!-- <div class="letter">
             <div class="letter-parent">
                 <div class="parent">
                     <div class="to">
@@ -32,6 +32,16 @@
                     <p id="typewriter" class="text-justify"></p>
                 </div>
             </div>
+            
+        </div> -->
+
+        <div class="video-recording">
+
+            <!-- <div class="close">
+                <button class="close-letter">&times;</button>
+            </div> -->
+            <video autoplay loop muted src="cassete_tape2.mp4">
+            </video>
         </div>
 
         <div class="overlay"></div>
@@ -44,6 +54,10 @@
                 <div class="seal"></div>
             </div>
         </div>
+
+        <audio id="audio1" src="first.aac" autoplay></audio>
+        <audio id="audio2" src="second.aac" autoplay></audio>
+
     </div>
 
     <script src="script.js"></script>
